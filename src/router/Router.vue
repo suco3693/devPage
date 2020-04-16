@@ -9,24 +9,27 @@
 </template>
 
 <script lang="ts">
-import { defineComponent } from '@vue/composition-api';
+import { defineComponent } from "@vue/composition-api";
 
 export default defineComponent({
-    name: 'Router',
+    name: "Router",
     setup() {
         const links = [
-            { name: 'Main', route: '/' },
-            { name: 'Resume', route: '/resume' },
-            { name: 'Contact Info', route: '/contact' },
+            { name: "Main", route: "/" },
+            { name: "Resume", route: "/resume" },
+            { name: "Contact Info", route: "/contact" }
         ];
         return {
-            links,
+            links
         };
-    },
+    }
 });
 </script>
 <style scoped>
 a {
     text-decoration: none;
+}
+.v-application a {
+    color: #2e7aec;
 }
 </style>
