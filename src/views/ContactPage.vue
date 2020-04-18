@@ -1,13 +1,14 @@
 <template>
-    <v-container>
-        I am Contact
-    </v-container>
+    <contact-info-page />
 </template>
 
 <script lang="ts">
-import Vue from 'vue';
-
+import Vue from "vue";
+import ContactInfoPage from "@/components/ContactInfoPage/ContactInfoPage.vue";
 export default Vue.extend({
-    name: 'ContactPage',
+    name: "ContactPage",
+    components: {
+        ContactInfoPage
+    }
 });
 </script>
