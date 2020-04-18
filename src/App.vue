@@ -27,7 +27,7 @@ export default defineComponent({
 </script>
 <style scoped>
 .v-application-addition {
-    font-family: Lucida Console;
+    font-family: "Playfair Display", serif;
 }
 .v-content-additon {
     color: #2e7aec;
