@@ -26,6 +26,7 @@ export default defineComponent({
 });
 </script>
 <style scoped>
+/* font from https://fonts.google.com/specimen/Playfair+Display?sidebar.open&selection.family=Playfair+Display:ital@1 */
 .v-application-addition {
     font-family: "Playfair Display", serif;
 }
