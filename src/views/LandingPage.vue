@@ -1,13 +1,15 @@
 <template>
-    <v-container>
-        I am Landing
-    </v-container>
+    <landing-page-container />
 </template>
 
 <script lang="ts">
-import Vue from 'vue';
+import Vue from "vue";
+import LandingPageContainer from "@/components/LandingContainer/LandingContainer.vue";
 
 export default Vue.extend({
-    name: 'LandingPage',
+    name: "LandingPage",
+    components: {
+        LandingPageContainer
+    }
 });
 </script>
